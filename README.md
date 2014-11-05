@@ -1,9 +1,14 @@
-ec2_guide
+ec2_guide - RedHat Install (RHEL)
 =========
 
-RedHat Install (RHEL) 
+General Instructions
+-------------------
 
-Local Machine Instructions:
+To SSH into the EC2 server, make sure that you have the .pem (protected pair key) in the same directory that you are SSH'ing from. I recommend writing a bash script/alias and adding it to your bash profile. To SSH in, run the following:
+
+```ssh -i filename.pem ec2-user@ec2-54-xxx-xxx-13.compute-1.amazonaws.com```
+
+Local Machine Instructions to Install Postgres:
 --------------------------
 To install postgres:
 
